@@ -14,11 +14,12 @@ export const App = () => {
   return (
     <Layout
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
+        flexDirection: 'column',
+        gap:'20px',
+        fontSize: 16,
         color: '#010101',
       }}
     >
