@@ -12,17 +12,7 @@ import { GlobalStyle } from './GlobalStyle';
 
 export const App = () => {
   return (
-    <Layout
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        flexDirection: 'column',
-        gap:'20px',
-        fontSize: 16,
-        color: '#010101',
-      }}
-    >
+    <Layout>
       <GlobalStyle />
       <Profile
         username={user.username}
